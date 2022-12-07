@@ -145,7 +145,7 @@ If it contains an Emacs Lisp source block, evaluate it.
     ;; setup the text
     (switch-to-buffer (current-buffer))
     (text-scale-set org-slideshow-text-scale)
-    (org-slideshow-subtree)
+    (org-show-subtree)
     (org-cycle-hide-drawers t)
     (org-display-inline-images)
     (delete-other-windows)
