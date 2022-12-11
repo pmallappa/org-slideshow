@@ -27,6 +27,8 @@
 ;;; Code:
 (require 'animate)
 (require 'easymenu)
+(require 'org)
+(require 'org-macs)
 
 (defcustom org-slideshow-org-meta-line-background 'unspecified
   "Background for org-meta-line face during a show."
